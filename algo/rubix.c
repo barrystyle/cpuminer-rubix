@@ -6,7 +6,7 @@
 
 void bmwhash(void *output, const void *input)
 {
-	uint32_t hashA[8];
+	uint32_t hashA[16];
 
 	sph_bmw512_context ctx_bmw;
 
